@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE7F6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChangepassFragment" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="428dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="15dp"
+        app:cardCornerRadius="25dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/currentInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EDE7F6"
+                android:hint="@string/current_password_title" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="100dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/newInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EDE7F6"
+                android:hint="@string/new_password_title" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="180dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/confirmedInput"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#EDE7F6"
+                android:hint="@string/confirmed_password_hint" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/chgPassBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#EDE7F6"
+            android:text="@string/change_password_title"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/forgetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="125dp"
+            android:text="@string/forget_password_title" />
+
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

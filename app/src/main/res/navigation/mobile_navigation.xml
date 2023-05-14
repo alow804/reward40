@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_reward">
+
+    <fragment
+        android:id="@+id/navigation_reward"
+        android:name="my.edu.tarc.reward40.ui.reward.RewardFragment"
+        android:label="@string/my_rewards"
+        tools:layout="@layout/fragment_reward" />
+
+    <fragment
+        android:id="@+id/navigation_request"
+        android:name="my.edu.tarc.reward40.ui.request.RequestFragment"
+        android:label="@string/request"
+        tools:layout="@layout/fragment_request" />
+
+    <fragment
+        android:id="@+id/navigation_article"
+        android:name="my.edu.tarc.reward40.ui.article.ArticleFragment"
+        android:label="@string/article"
+        tools:layout="@layout/fragment_article" />
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="my.edu.tarc.reward40.ui.account.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/navigation_profileinfo"
+        android:name="my.edu.tarc.reward40.ui.account.ProfileInfoFragment"
+        android:label="@string/my_profile_title"
+        tools:layout="@layout/fragment_profile_info" />
+    <fragment
+        android:id="@+id/navigation_chgpass"
+        android:name="my.edu.tarc.reward40.ChangepassFragment"
+        android:label="@string/change_password_title"
+        tools:layout="@layout/fragment_changepass" />
+    <fragment
+        android:id="@+id/navigation_reset"
+        android:name="my.edu.tarc.reward40.ui.account.resetFragment"
+        android:label="@string/forget_password_title"
+        tools:layout="@layout/fragment_reset" />
+    <fragment
+        android:id="@+id/navigation_edit"
+        android:name="my.edu.tarc.reward40.ui.account.EditinfoFragment"
+        android:label="@string/edit_profile_title"
+        tools:layout="@layout/fragment_editinfo" />
+</navigation>

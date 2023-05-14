@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">reward40</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="request">Request</string>
+    <string name="article">Article</string>
+    <string name="account">My Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password_title">Password</string>
+    <string name="email_title">Email</string>
+    <string name="login_title">Login</string>
+    <string name="forgot_password_title">Forgot Password?</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="register_now_title">Register Now!</string>
+    <string name="otp_text">An OTP has been sent to your registered email, please check the email and enter the received OTP.</string>
+    <string name="otp_hint">OTP</string>
+    <string name="verify_otp_button">Verify OTP</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="ic_hint">IC</string>
+    <string name="contact_no_hint">Contact No</string>
+    <string name="confirmed_password_hint">Confirmed Password</string>
+    <string name="register_title">Register</string>
+    <string name="already_have_account_text">Already have account</string>
+    <string name="sign_in_with_google_title">Sign in with Google</string>
+    <string name="forget_password_title">Forget Password</string>
+    <string name="send_email_button">Send Email</string>
+    <string name="account_title">Account</string>
+    <string name="my_profile_title">My Profile</string>
+    <string name="full_name">Full Name :</string>
+    <string name="registered_at_title">Registered At</string>
+    <string name="char_title">:</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="current_password_title">Current Password</string>
+    <string name="new_password_title">New Password</string>
+    <string name="address_title">Address</string>
+    <string name="reset_sentence">Enter you email to reset your password.</string>
+    <string name="save_title">Save</string>
+    <string name="edit_profile_title">Edit Profile</string>
+</resources>

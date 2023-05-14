@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_reward"
+        android:icon="@drawable/ic_baseline_redeem_24"
+        android:title="@string/my_rewards" />
+
+
+
+    <item
+        android:id="@+id/navigation_request"
+        android:icon="@drawable/ic_outline_request_24"
+        android:title="@string/request" />
+
+
+
+    <item
+        android:id="@+id/navigation_article"
+        android:icon="@drawable/ic_outline_article_24"
+        android:title="@string/article" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_outline_account_circle_24"
+        android:title="@string/account" />
+
+</menu>
